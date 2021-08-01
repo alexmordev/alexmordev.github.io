@@ -1,0 +1,95 @@
+#box2{
+	/* border: 5px solid darkblue;*/
+	height: 80%;
+    width: 80%;
+    border-color:azure;
+    border-style: inset;
+    margin: 0 auto;
+    
+}
+#parrafo{
+    text-align: justify;
+    font-style:oblique;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: red;
+}
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+
+svg{
+  width: 80%;
+  height: 80%;
+  display: block;
+  overflow: hidden; 
+  margin: 0 auto;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 100%;
+}
+
+body{
+  background: black;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: rgb(163, 13, 88);
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: rgb(146, 18, 103);
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke:rgb(238, 47, 255);
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: rgb(205, 50, 102);
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: rgb(168, 0, 219);
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
