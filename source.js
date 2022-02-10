@@ -1,6 +1,7 @@
-$("#btn_push1").click(function(){
-    $("#img1").hide();
+$("#btn_first").click(function(){
+    $("h1:first").html("Change");
 })
-$("#btn_push2").click(function(){
-    $("#img2").remove();
+
+$("#btn_last").click(function(){
+    $("h1:last").html("also change");
 })
